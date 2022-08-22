@@ -1,0 +1,105 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+#add-box h3{
+
+}
+#item-card img{
+    height: 300px;
+    width: 300px;
+}
+#item-card h3{
+    padding-left: 7%;
+}
+label{
+    color: aliceblue;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: 250px 1fr 300px;
+    height: 100%;
+    overflow: hidden;
+}
+#menu{
+    background-color: white;
+}
+#food-container-a{
+    background-image: url("/images/all\ food.jpg");
+    padding-top: 28%;
+    padding-left: 15%;
+}
+#cart{
+    background-color: white;
+}
+#cart img{
+    width: 320px;
+    height: 180px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+img{
+        width: 170px;
+        height: 70px;
+        padding-left: 20px;
+        padding-top: 10px;
+
+}
+.menu-item a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 30px;
+    margin: 12px 0;
+    color: rgb(128, 129, 129);
+    font-weight: 300;
+}
+.menu-item a:hover{
+    background-color: rgba(78, 187, 233, 0.696);
+}
+.add-box{
+    border: 1px solid indianred;
+    color: indianred;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 150px;
+
+}
+#header{
+    padding: 20px;
+}
+button{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: brown;
+}
+#category-name{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.location{
+    display: inline-block;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
